@@ -40,18 +40,19 @@ p {
     box-shadow: 0 10px 20px #ccc;
     padding: 12px 20px;
     border-radius: 6px;
-    color: #222;
+    color: #4eacf4;
     font-weight: bold;
     transition: all ease 0.5s;
 }
 .href-arrow > a:hover {
     text-decoration: none;
-    color: #222222;
+    color: #4eacf4;
     box-shadow: 0 10px 30px #aaa;
 }
 .btn-dark {
     padding: 10px;
-    background: #222;
+    background: #4eacf4;
+    border-color: #4eacf4;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -61,6 +62,9 @@ p {
 }
 .btn-dark:hover {
     box-shadow: 0 6px 24px #555;
+    background: #4eacf4;
+    border-color: #4eacf4;
+    box-shadow: 0 6px 24px #2c6997;
 }
 /* -------- end global ---------*/
 
@@ -91,14 +95,14 @@ p {
 .navbar .menu li > a.btn {
     margin-left: 10px;
     padding: 4px 10px;
-    background: #222;
+    background: #4eacf4;
+    border-color: #4eacf4;
     color: #fff;
     font-weight: bold;
-    box-shadow: 0 6px 24px #555;
     transition: all ease 0.5s;
 }
 .navbar .menu li > a.btn:hover {
-    box-shadow: 0 10px 30px #555;
+    box-shadow: 0 6px 24px #2c6997;
 }
 .navbar .menu-mobile {
     position: absolute;
